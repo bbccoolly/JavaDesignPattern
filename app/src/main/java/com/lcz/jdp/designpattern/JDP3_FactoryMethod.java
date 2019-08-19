@@ -1,8 +1,8 @@
 package com.lcz.jdp.designpattern;
 
-import com.lcz.jdp.dp1_FactoryMethod.AbstractFactory;
-import com.lcz.jdp.dp1_FactoryMethod.Product;
-import com.lcz.jdp.dp1_FactoryMethod.ReadXML1;
+import com.lcz.jdp.dp3_FactoryMethod.AbstractFactory;
+import com.lcz.jdp.dp3_FactoryMethod.Product;
+import com.lcz.jdp.dp3_FactoryMethod.ReadXML1;
 
 /**
  * desc: 3. 工厂方法模式 -
