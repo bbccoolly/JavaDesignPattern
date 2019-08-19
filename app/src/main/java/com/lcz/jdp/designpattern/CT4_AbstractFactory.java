@@ -6,7 +6,7 @@ package com.lcz.jdp.designpattern;
  *  2. 抽象工厂模式考虑多等级产品的生产
  * date: 2019/8/19 11:29 by lcz
  */
-public class JDP4_AbstractFactory {
+public class CT4_AbstractFactory {
     /**
      * 1. 定义：
      *  - 是一种为访问类提供一个创建一组相关或相互依赖对象的接口，

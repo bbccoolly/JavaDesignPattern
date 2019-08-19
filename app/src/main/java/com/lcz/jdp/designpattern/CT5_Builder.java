@@ -1,15 +1,15 @@
 package com.lcz.jdp.designpattern;
 
-import com.lcz.jdp.dp5_Builder.Builder;
-import com.lcz.jdp.dp5_Builder.ConcreteBuilder;
-import com.lcz.jdp.dp5_Builder.Director;
-import com.lcz.jdp.dp5_Builder.Product;
+import com.lcz.jdp.ct5_Builder.Builder;
+import com.lcz.jdp.ct5_Builder.ConcreteBuilder;
+import com.lcz.jdp.ct5_Builder.Director;
+import com.lcz.jdp.ct5_Builder.Product;
 
 /**
  * desc: 建造者模式 - 复杂对象的构造与表示分离，同样的构造过程可以创建不同的表示
  * date: 2019/8/19 14:22 by lcz
  */
-public class JDP5_Builder {
+public class CT5_Builder {
     /**
      * 1. 优点：
      *  - 各个具体的建造者相互独立，利于系统扩展

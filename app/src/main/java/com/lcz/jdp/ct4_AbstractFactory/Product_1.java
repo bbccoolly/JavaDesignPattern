@@ -1,6 +1,4 @@
-package com.lcz.jdp.dp4_AbstractFactory;
-
-import com.lcz.jdp.dp3_FactoryMethod.Product;
+package com.lcz.jdp.ct4_AbstractFactory;
 
 /**
  * desc: 抽象产品 1 - 定义描述 产品，功能 特性

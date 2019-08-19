@@ -1,4 +1,4 @@
-package com.lcz.jdp.dp4_AbstractFactory;
+package com.lcz.jdp.ct4_AbstractFactory;
 
 /**
  * desc: 抽象产品 2 - 定义描述产品 功能 特性

@@ -1,4 +1,4 @@
-package com.lcz.jdp.dp3_FactoryMethod;
+package com.lcz.jdp.ct3_FactoryMethod;
 
 import org.w3c.dom.Document;
 import org.w3c.dom.Node;

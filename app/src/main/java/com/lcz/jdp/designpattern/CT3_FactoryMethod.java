@@ -1,8 +1,8 @@
 package com.lcz.jdp.designpattern;
 
-import com.lcz.jdp.dp3_FactoryMethod.AbstractFactory;
-import com.lcz.jdp.dp3_FactoryMethod.Product;
-import com.lcz.jdp.dp3_FactoryMethod.ReadXML1;
+import com.lcz.jdp.ct3_FactoryMethod.AbstractFactory;
+import com.lcz.jdp.ct3_FactoryMethod.Product;
+import com.lcz.jdp.ct3_FactoryMethod.ReadXML1;
 
 /**
  * desc: 3. 工厂方法模式 -
@@ -10,7 +10,7 @@ import com.lcz.jdp.dp3_FactoryMethod.ReadXML1;
  * 2. 满足创建与使用分离
  * date: 2019/8/16 15:11 by lcz
  */
-public class JDP3_FactoryMethod {
+public class CT3_FactoryMethod {
     /**
      * 1. 优点：
      *   - 用户只需知道具体工厂的名称就可得到所要的产品，无需知道产品的具体创建过程

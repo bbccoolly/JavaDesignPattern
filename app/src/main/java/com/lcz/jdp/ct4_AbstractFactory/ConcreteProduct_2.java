@@ -1,4 +1,4 @@
-package com.lcz.jdp.dp4_AbstractFactory;
+package com.lcz.jdp.ct4_AbstractFactory;
 
 /**
  * desc: 具体产品 - 去实现

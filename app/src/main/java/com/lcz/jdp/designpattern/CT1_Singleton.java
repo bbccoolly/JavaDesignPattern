@@ -4,7 +4,7 @@ package com.lcz.jdp.designpattern;
  * desc: 单例模式 -
  * date: 2019/8/16 12:15 by lcz
  */
-public class JDP1_Singleton {
+public class CT1_Singleton {
 
     /**应用场景：
      * 1. 某类只要求生成一个对象的时候，如一个班的班长，个人的身份证号
@@ -12,11 +12,11 @@ public class JDP1_Singleton {
      * 3. 某类需要频繁实例化，而创建的对象又频繁被销毁，如 多线程的线程池，网络连接池
      */
 
-    private static JDP1_Singleton instance;
+    private static CT1_Singleton instance;
 
-    public static synchronized JDP1_Singleton getInstance() {
+    public static synchronized CT1_Singleton getInstance() {
         if (instance == null) {
-            instance = new JDP1_Singleton();
+            instance = new CT1_Singleton();
         } else {
             //已存在该 单例对象
         }

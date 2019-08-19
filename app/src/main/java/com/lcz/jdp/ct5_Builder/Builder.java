@@ -1,4 +1,4 @@
-package com.lcz.jdp.dp5_Builder;
+package com.lcz.jdp.ct5_Builder;
 
 /**
  * desc: 抽象建造者，包含创建各个产品子部件的抽象方法、接口，以及返回产品对象的 getResult()

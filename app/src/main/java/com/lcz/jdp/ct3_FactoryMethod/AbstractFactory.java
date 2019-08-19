@@ -1,4 +1,4 @@
-package com.lcz.jdp.dp3_FactoryMethod;
+package com.lcz.jdp.ct3_FactoryMethod;
 
 /**
  * desc: 抽象工厂 - 提供产品创建

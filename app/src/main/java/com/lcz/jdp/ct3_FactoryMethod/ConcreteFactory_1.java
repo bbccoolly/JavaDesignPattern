@@ -1,4 +1,4 @@
-package com.lcz.jdp.dp3_FactoryMethod;
+package com.lcz.jdp.ct3_FactoryMethod;
 
 /**
  * desc: 具体工厂 - 实现了产品的 show 方法，(具体实现)

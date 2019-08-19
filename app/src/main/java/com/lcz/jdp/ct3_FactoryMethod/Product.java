@@ -1,4 +1,4 @@
-package com.lcz.jdp.dp3_FactoryMethod;
+package com.lcz.jdp.ct3_FactoryMethod;
 
 /**
  * desc: 抽象产品 - 定义产品

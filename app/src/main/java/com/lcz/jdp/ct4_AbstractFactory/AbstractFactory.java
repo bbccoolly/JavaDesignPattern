@@ -1,4 +1,4 @@
-package com.lcz.jdp.dp4_AbstractFactory;
+package com.lcz.jdp.ct4_AbstractFactory;
 
 /**
  * desc: 抽象工厂 - 提供产品生产方法

@@ -1,4 +1,4 @@
-package com.lcz.jdp.dp5_Builder;
+package com.lcz.jdp.ct5_Builder;
 
 /**
  * desc: 产品角色 - 包含多个组成部件的复杂对象
