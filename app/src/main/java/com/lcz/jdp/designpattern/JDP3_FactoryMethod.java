@@ -29,6 +29,13 @@ public class JDP3_FactoryMethod {
      * 4. 具体产品(Concrete Product):实现抽象产品定义的所有接口，由具体工厂来创建
      */
 
+    /**
+     * 应用场景：
+     * 1. 客户只知道创建产品的工厂名，而不知道具体的产品名
+     * 2. 创建对象的任务由多个具体子工厂中的某一个完成，抽象工厂只提供创建产品的接口
+     * 3. 不关心细节，只关心结果
+     */
+
     public static void main(String[] args) {
         Product p;
         AbstractFactory af;
