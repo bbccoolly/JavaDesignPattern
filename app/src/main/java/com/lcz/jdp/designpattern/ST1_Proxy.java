@@ -1,6 +1,11 @@
 package com.lcz.jdp.designpattern;
 
+import com.lcz.jdp.st1_Proxy.DynamicProxy;
 import com.lcz.jdp.st1_Proxy.Proxy;
+import com.lcz.jdp.st1_Proxy.RealSubject;
+import com.lcz.jdp.st1_Proxy.Subject;
+
+import java.lang.reflect.InvocationHandler;
 
 /**
  * desc: 代理模式 - 访问对象不适合或者不能直接引用目标对象，代理对象作为访问对象和目标对象之间的中介
@@ -41,7 +46,14 @@ public class ST1_Proxy {
 
 
     public static void main(String[] args) {
+        //静态代理
         Proxy proxy = new Proxy();
         proxy.Request();
+
+        //动态代理
+        RealSubject subject = new RealSubject();
+        DynamicProxy dynamicProxy = new DynamicProxy(subject);
+        Subject o = (Subject) java.lang.reflect.Proxy.newProxyInstance(subject.getClass().getClassLoader(), subject.getClass().getInterfaces(), dynamicProxy);
+        o.Request();
     }
 }
