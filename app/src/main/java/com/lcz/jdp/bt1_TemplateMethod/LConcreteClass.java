@@ -14,4 +14,14 @@ public class LConcreteClass extends LAbstractClass {
     public void AbstractMethod_2() {
         System.out.println("抽象类中的抽象方法 2 被调用");
     }
+
+    @Override
+    public void HookMethod_1() {
+        System.out.println("钩子方法 1 被重写");
+    }
+
+    @Override
+    public boolean HookMethod_2() {
+        return false;
+    }
 }

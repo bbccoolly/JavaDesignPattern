@@ -13,6 +13,31 @@ public abstract class LAbstractClass {
         Method_1();
         AbstractMethod_1();
         AbstractMethod_2();
+
+        HookMethod_1();
+        if (HookMethod_2()) {
+            SpecificMethod();
+        }
+
+    }
+
+    public void SpecificMethod() {
+        System.out.println("抽象类中的具体方法 SpecificMethod 被调用 - ");
+
+    }
+
+    /**
+     * @return 钩子方法 2
+     */
+    public boolean HookMethod_2() {
+        return true;
+    }
+
+    /**
+     * 钩子方法 1
+     */
+    public void HookMethod_1() {
+
     }
 
     /*抽象方法 1 */
