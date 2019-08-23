@@ -5,6 +5,9 @@ import com.lcz.jdp.bt6_Observer.LAbstractSubject;
 import com.lcz.jdp.bt6_Observer.LConcreteObserver_1;
 import com.lcz.jdp.bt6_Observer.LConcreteObserver_2;
 import com.lcz.jdp.bt6_Observer.LConcreteSubject;
+import com.lcz.jdp.bt6_Observer.jo.JConcreteObersver_2;
+import com.lcz.jdp.bt6_Observer.jo.JConcreteObserver_1;
+import com.lcz.jdp.bt6_Observer.jo.JConcreteSubject;
 
 /**
  *
@@ -49,6 +52,18 @@ public class BT6_Observer {
         subject.addObserver(observer2);
 
         subject.notifyObserver();
+
+        System.out.println("----------------------");
+
+        JConcreteSubject js = new JConcreteSubject();
+        JConcreteObserver_1 jo1 = new JConcreteObserver_1();
+        JConcreteObersver_2 jo2 = new JConcreteObersver_2();
+
+        js.addObserver(jo1);
+        js.addObserver(jo2);
+        js.setPrice(10);
+        js.setPrice(-9);
+
     }
 }
 
