@@ -53,7 +53,7 @@ public class BT6_Observer {
 
         subject.notifyObserver();
 
-        System.out.println("----------------------");
+        System.out.println("----------------------");//
 
         JConcreteSubject js = new JConcreteSubject();
         JConcreteObserver_1 jo1 = new JConcreteObserver_1();
@@ -63,6 +63,7 @@ public class BT6_Observer {
         js.addObserver(jo2);
         js.setPrice(10);
         js.setPrice(-9);
+        
 
     }
 }

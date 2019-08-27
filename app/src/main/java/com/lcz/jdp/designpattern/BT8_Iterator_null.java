@@ -1,8 +1,8 @@
 package com.lcz.jdp.designpattern;
 
 /**
- * desc: 访问者模式
+ * desc: 迭代器模式
  * date: 2019/8/21 11:12 by lcz
  */
-public class BT9_Visitor {
+public class BT8_Iterator_null {
 }
